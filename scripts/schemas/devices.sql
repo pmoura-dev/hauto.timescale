@@ -53,7 +53,7 @@ CREATE TABLE "DeviceListeners"
 
 CREATE TABLE "Action"
 (
-    "name"        VARCHAR(20) PRIMARY KEY,
+    "name"        VARCHAR(100) PRIMARY KEY,
     "description" TEXT
 );
 
@@ -61,7 +61,7 @@ CREATE TABLE "DeviceActions"
 (
     "id"        SERIAL PRIMARY KEY,
     "device_id" INTEGER      NOT NULL,
-    "action"    VARCHAR(20)  NOT NULL,
+    "action"    VARCHAR(100) NOT NULL,
     "topic"     VARCHAR(100) NOT NULL,
 
     CONSTRAINT fk_device_id

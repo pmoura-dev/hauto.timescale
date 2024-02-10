@@ -6,7 +6,7 @@ CREATE FUNCTION get_devices_mqtt_configuration()
                 device_id     INTEGER,
                 controller    VARCHAR(20),
                 consumer_type VARCHAR(10),
-                name          VARCHAR(20),
+                name          VARCHAR(100),
                 topic         VARCHAR(100)
             )
 AS
