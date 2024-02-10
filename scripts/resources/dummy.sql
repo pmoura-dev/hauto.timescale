@@ -34,4 +34,6 @@ VALUES ('turn_on', 'Turns a device on'),
 
 INSERT INTO "DeviceActions"
 VALUES (1, 3, 'turn_on', 'shellies.shellycolorbulb-3494546B2CAD.color.0.command'),
-       (2, 3, 'turn_off', 'shellies.shellycolorbulb-3494546B2CAD.color.0.command');
+       (2, 3, 'turn_off', 'shellies.shellycolorbulb-3494546B2CAD.color.0.command'),
+       (3, 1, 'turn_on', 'hisense_ac.ca2c4f94ffd2.t_power.command'),
+       (4, 1, 'turn_off', 'hisense_ac.ca2c4f94ffd2.t_power.command');
