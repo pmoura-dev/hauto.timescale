@@ -42,4 +42,9 @@ VALUES (1, 3, 'turn_on', 'shellies.shellycolorbulb-3494546B2CAD.color.0.command'
        (4, 1, 'turn_off', 'hisense_ac.ca2c4f94ffd2.t_power.command'),
        (5, 1, 'set_heating_threshold_temperature', 'hisense_ac.ca2c4f94ffd2.t_temp.command'),
        (6, 1, 'set_cooling_threshold_temperature', 'hisense_ac.ca2c4f94ffd2.t_temp.command'),
-       (7, 1, 'set_heater_cooler_mode', 'hisense_ac.ca2c4f94ffd2.t_work_mode.command');
+       (7, 1, 'set_heater_cooler_mode', 'hisense_ac.ca2c4f94ffd2.t_work_mode.command'),
+       (8, 2, 'turn_on', 'hisense_ac.ca2c4f94ffd2.t_power.command'),
+       (9, 2, 'turn_off', 'hisense_ac.ca2c4f94ffd2.t_power.command'),
+       (10, 2, 'set_heating_threshold_temperature', 'hisense_ac.ca2c4f94ffd2.t_temp.command'),
+       (11, 2, 'set_cooling_threshold_temperature', 'hisense_ac.ca2c4f94ffd2.t_temp.command'),
+       (12, 2, 'set_heater_cooler_mode', 'hisense_ac.ca2c4f94ffd2.t_work_mode.command');
