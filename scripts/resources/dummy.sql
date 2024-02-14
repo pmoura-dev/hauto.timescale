@@ -24,7 +24,9 @@ VALUES ('state', 'Represents the state of the device'),
 
 
 INSERT INTO "DeviceListeners"
-VALUES (1, 3, 'state', 'shellies.shellycolorbulb-3494546B2CAD.color.0.status');
+VALUES (1, 3, 'state', 'shellies.shellycolorbulb-3494546B2CAD.color.0.status'),
+       (2, 1, 'state', 'hisense_ac.ca2c4f94ffd2.all.status'),
+       (3, 2, 'state', 'hisense_ac.ca2c4f956004.all.status');
 
 
 INSERT INTO "Action"
