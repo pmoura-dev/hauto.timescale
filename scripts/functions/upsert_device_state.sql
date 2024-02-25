@@ -1,6 +1,6 @@
-DROP FUNCTION IF EXISTS upsert_device_status(VARCHAR(50), JSONB);
+DROP FUNCTION IF EXISTS upsert_device_state(VARCHAR(50), JSONB);
 
-CREATE FUNCTION upsert_device_status(
+CREATE FUNCTION upsert_device_state(
     p_device_id INTEGER,
     p_state JSONB
 )
